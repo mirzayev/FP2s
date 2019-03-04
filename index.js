@@ -24,5 +24,4 @@ var fingerprintReport = function() {
 document.getElementById("btn").addEventListener("click", () => {
   setTimeout(() => {
     fingerprintReport();
-  }, 500);
 });
