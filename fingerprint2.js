@@ -246,7 +246,7 @@
     },
     screen: {
        // To ensure consistent fingerprints when users rotate their mobile devices
-      detectScreenOrientation: false
+      detectScreenOrientation: true
     },
     plugins: {
       sortPluginsFor: [/palemoon/i],
@@ -1272,8 +1272,8 @@
     {key: 'deviceMemory', getData: deviceMemoryKey},
     {key: 'pixelRatio', getData: pixelRatioKey},
     {key: 'hardwareConcurrency', getData: hardwareConcurrencyKey},
-//     {key: 'screenResolution', getData: screenResolutionKey},
-//     {key: 'availableScreenResolution', getData: availableScreenResolutionKey},
+    {key: 'screenResolution', getData: screenResolutionKey},
+    {key: 'availableScreenResolution', getData: availableScreenResolutionKey},
     {key: 'timezoneOffset', getData: timezoneOffset},
     {key: 'timezone', getData: timezone},
     {key: 'sessionStorage', getData: sessionStorageKey},
@@ -1290,7 +1290,7 @@
     {key: 'webglVendorAndRenderer', getData: webglVendorAndRendererKey},
     {key: 'adBlock', getData: adBlockKey},
     {key: 'hasLiedLanguages', getData: hasLiedLanguagesKey},
-//     {key: 'hasLiedResolution', getData: hasLiedResolutionKey},
+    {key: 'hasLiedResolution', getData: hasLiedResolutionKey},
     {key: 'hasLiedOs', getData: hasLiedOsKey},
     {key: 'hasLiedBrowser', getData: hasLiedBrowserKey},
     {key: 'touchSupport', getData: touchSupportKey},
