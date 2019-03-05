@@ -246,7 +246,7 @@
     },
     screen: {
        // To ensure consistent fingerprints when users rotate their mobile devices
-      detectScreenOrientation: true
+      detectScreenOrientation: false
     },
     plugins: {
       sortPluginsFor: [/palemoon/i],
